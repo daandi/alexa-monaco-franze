@@ -48,7 +48,7 @@ const handlers = {
             largeImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Monacofranze.jpg'
         };
 
-        const speechOutput = '<audio src="https://s3-eu-west-1.amazonaws.com/monaco-franze/ein-rechter-scheissdreck-wars.mp3" />';
+        const speechOutput = '<audio src="https://s3-eu-west-1.amazonaws.com/monaco-franze/ein-rechter.mp3" />';
         this.emit(':tellWithCard', speechOutput, answers.SKILL_NAME, speechOutput, imageObj);
 
     },
