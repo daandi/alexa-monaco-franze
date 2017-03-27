@@ -4,4 +4,3 @@ FranzeIntent sag was
 FranzeIntent geht was
 FranzeIntent erzähl mir was
 WieWarsIntent wie wars
-WieWarsIntent sheißdreck
