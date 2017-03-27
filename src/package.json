@@ -1,0 +1,32 @@
+{
+  "name": "monaco.franze",
+  "version": "1.0.0",
+  "description": "A bissal was geht allaweil",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "publish": "zip -r monaco-franze.zip ./ && aws lambda update-function-code --function-name=monaco-franze --zip-file=fileb://monaco-franze.zip && rm -f monaco-franze.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/daandi/alexa-monaco-franze.git"
+  },
+  "keywords": [
+    "alexa"
+  ],
+  "author": "Andreas Neumann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daandi/alexa-monaco-franze/issues"
+  },
+  "homepage": "https://github.com/daandi/alexa-monaco-franze#readme",
+  "atomTestRunner": "atom-mocha",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "atom-mocha": "^2.0.1"
+  }
+}
